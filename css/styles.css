@@ -202,16 +202,31 @@ body {
   margin: 0;
 }
 
-/* Our works section */
+/* What we do section */
 
 .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin: 0;
 }
 
-.works .description {
+.what-we-do .title {
+  margin-bottom: 50px;
+}
+
+.what-we-do-list {
+  display: flex;
+  width: calc((100% - 2 * 30px) / 3);
+  padding-bottom: 94px;
+}
+
+.what-we-do-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.what-we-do .description {
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--white-color);
   font-weight: 700;
@@ -219,6 +234,7 @@ body {
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
 }
 
 /* Our team section */
