@@ -303,6 +303,35 @@ body {
   background-color: var(--accent-color);
 }
 
+/* Clients section */
+
+.clients .title {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+
+  padding-bottom: 94px;
+}
+
+.clients-list .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: calc((100% - 5 * 30px) / 6);
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* FOOTER */
 
 .footer .container {
