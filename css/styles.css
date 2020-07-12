@@ -320,10 +320,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: calc((100% - 5 * 30px) / 6);
   height: 90px;
-
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -400,6 +398,11 @@ body {
 
 .footer .social-links {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-links:hover,
+.social-links:focus {
+  background-color: var(--accent-color);
 }
 
 /* PORTFOLIO */
