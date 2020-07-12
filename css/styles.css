@@ -292,8 +292,6 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 24px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .social-links-list-item:not(:last-child) {
