@@ -388,7 +388,7 @@ body {
 
 .join-up .text,
 .subscribe .text {
-  display: inline-block;
+  display: block;
 
   font-weight: 700;
   font-size: 14px;
@@ -421,13 +421,17 @@ body {
 
 /* PORTFOLIO */
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Filter buttons */
 
 .button-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .button-list .item:not(:last-child) {
@@ -462,7 +466,6 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .portfolio-list .item {
