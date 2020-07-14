@@ -268,6 +268,7 @@ body {
 
 .team-list .item {
   background-color: var(--white-color);
+  padding-bottom: 24px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
 }
@@ -277,6 +278,7 @@ body {
 }
 
 .team-photo {
+  display: block;
   margin-bottom: 30px;
 }
 
@@ -302,11 +304,16 @@ body {
 .social-links-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 24px;
+  align-items: center;
+}
+
+.social-links-list-item {
+  width: 44px;
+  height: 44px;
 }
 
 .social-links-list-item:not(:last-child) {
-  margin-right: 22px;
+  margin-right: 10px;
 }
 
 .social-links:hover,
@@ -380,6 +387,13 @@ body {
 
 .join-up-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-up-list .item {
+  width: 44px;
+  height: 44px;
 }
 
 .join-up-list .item:not(:last-child) {
