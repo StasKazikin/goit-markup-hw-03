@@ -479,6 +479,7 @@ body {
 
 .portfolio-list img {
   display: block;
+  max-width: 100%;
 }
 
 .portfolio-list {
