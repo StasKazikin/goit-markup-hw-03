@@ -347,14 +347,16 @@ body {
 
 .footer .container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-right: 69px;
 }
 
 .footer-address .item:not(:last-child) {
@@ -373,8 +375,7 @@ body {
 }
 
 .join-up {
-  padding-top: 72px;
-  padding-bottom: 100px;
+  margin-right: 94px;
 }
 
 .join-up-list {
