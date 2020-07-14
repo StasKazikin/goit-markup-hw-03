@@ -47,6 +47,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation {
@@ -96,8 +98,6 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
@@ -120,6 +120,9 @@ body {
 
 .hero {
   text-align: center;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
   /* для видимости текста */
   background-color: rgba(112, 103, 103, 0.2);
 }
@@ -134,7 +137,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  padding-top: 200px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -157,10 +159,13 @@ body {
 
 /* About us section */
 
-.about-us-list {
-  display: flex;
+.about-us {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.about-us-list {
+  display: flex;
 }
 
 .about-us-list .item {
@@ -204,6 +209,10 @@ body {
 
 /* What we do section */
 
+.what-we-do {
+  padding-bottom: 94px;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -219,7 +228,6 @@ body {
 .what-we-do-list {
   display: flex;
   width: calc((100% - 2 * 30px) / 3);
-  padding-bottom: 94px;
 }
 
 .what-we-do-list .item:not(:last-child) {
@@ -241,18 +249,17 @@ body {
 
 .team {
   background-color: var(--secondary-bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team .title {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
 .team-list {
   display: flex;
   width: calc((100% - 3 * 30px) / 4);
-
-  padding-bottom: 94px;
 }
 
 .team-list .item {
@@ -305,15 +312,17 @@ body {
 
 /* Clients section */
 
-.clients .title {
+.clients {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients .title {
   margin-bottom: 50px;
 }
 
 .clients-list {
   display: flex;
-
-  padding-bottom: 94px;
 }
 
 .clients-list .item {
