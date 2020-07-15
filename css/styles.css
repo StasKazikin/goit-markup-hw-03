@@ -23,6 +23,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
 .list {
   margin: 0;
   padding: 0;
@@ -232,10 +239,6 @@ body {
 
 .what-we-do-list .item:not(:last-child) {
   margin-right: 30px;
-}
-
-.what-we-do img {
-  display: block;
 }
 
 .what-we-do .description {
@@ -477,9 +480,15 @@ body {
 
 /* Portfolio grid */
 
-.portfolio-list img {
-  display: block;
-  max-width: 100%;
+.content {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .portfolio-list {
@@ -491,8 +500,6 @@ body {
   width: calc((100% - 2 * 30px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  padding-bottom: 20px;
-  border: 1px solid #eeeeee;
 }
 
 .portfolio-list .item:nth-child(3n) {
@@ -510,9 +517,6 @@ body {
   letter-spacing: 0.06em;
   text-align: left;
 
-  padding-right: 24px;
-  padding-left: 24px;
-  margin-top: 20px;
   margin-bottom: 4px;
 }
 
@@ -522,8 +526,6 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
 
-  padding-right: 24px;
-  padding-left: 24px;
   margin: 0;
 }
 
