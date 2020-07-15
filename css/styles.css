@@ -25,7 +25,6 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
   overflow: auto;
 }
@@ -121,6 +120,10 @@ img {
 .address-nav .link {
   color: var(--secondary-text-color);
   font-style: normal;
+}
+
+.address img {
+  display: inline-block;
 }
 
 /* HERO section */
@@ -434,6 +437,10 @@ img {
 .social-links:hover,
 .social-links:focus {
   background-color: var(--accent-color);
+}
+
+.footer img {
+  display: inline-block;
 }
 
 /* PORTFOLIO */
